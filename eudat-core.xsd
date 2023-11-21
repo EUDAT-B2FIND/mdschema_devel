@@ -4,6 +4,7 @@
   <xs:include schemaLocation="include/eudat-coreTypes-v1.xsd"/>
   <xs:include schemaLocation="include/eudat-identifierType-v1.xsd"/>
   <xs:include schemaLocation="include/eudat-limitedIdentifierType-v1.xsd"/>
+  <xs:include schemaLocation="include/eudat-funderIdentifierType-v1.xsd"/>
   <xs:element name="resource">
     <xs:annotation>
       <xs:documentation>
