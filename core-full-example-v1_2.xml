@@ -22,7 +22,9 @@ xsi:schemaLocation="http://schema.eudat.eu/schemas/v1.1 https://schema.eudat.eu/
   <publicationYear>2020</publicationYear>
   <creators>
       <creator>
-          <creatorName>Miller, Elizabeth</creatorName>
+          <creatorName>Richardson, Barry</creatorName>
+            <nameIdentifier schemeURI="http://orcid.org/" nameIdentifierScheme="ORCID">
+            0000-0001-4000-1237</nameIdentifier>
       </creator>
       <creator>
           <creatorName>Fuller, Barry</creatorName>
@@ -136,12 +138,16 @@ xsi:schemaLocation="http://schema.eudat.eu/schemas/v1.1 https://schema.eudat.eu/
       <size>102 files</size>
   </sizes>
   <fundingReferences>
-      <fundingReference>
-          <funderName>National Science Foundation</funderName>
-          <awardNumber>XYZ-10001</awardNumber>
-      </fundingReference>
-      <fundingReference>
-          <funderName>Federal Science Organisation</funderName>
-      </fundingReference>
-  </fundingReferences>
+        <fundingReference>
+            <funderName>Dutch Research Council</funderName>
+            <funderIdentifier funderIdentifierType="Crossref Funder ID">
+            501100003246</funderIdentifier>
+            <awardNumber>XYZ-10001</awardNumber>
+            <awardTitle>Full EUDAT Core XML Example</awardTitle>
+        </fundingReference>
+        <fundingReference>
+            <funderName>Norwegian Research Council</funderName>
+        </fundingReference>
+    </fundingReferences>
+
 </resource>
